@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <include android:id="@+id/toolbar"
+        layout="@layout/toolbar">
+    </include>
+    <androidx.cardview.widget.CardView
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_photo"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/profile">
+            </de.hdodenhof.circleimageview.CircleImageView>
+            <TextView
+                android:id="@+id/Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_photo"
+                android:text="@string/nama_profile"
+                android:fontFamily="calibri"
+                android:textAlignment="center"
+                android:textSize="40sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Name"
+                android:textAlignment="center"
+                android:text="@string/email"
+                android:textSize="15sp"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

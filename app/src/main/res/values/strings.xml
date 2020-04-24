@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Top University Jabar</string>
+    <string name="description">Deskripsi</string>
+    <string name="nama_universitas">Nama Universitas</string>
+    <string name="peringkat">Peringkat</string>
+    <string name="klaster">Klaster</string>
+    <string name="nama_profile">Andrian Prasetya</string>
+    <string name="email">andrianprasetya223@dicoding.com</string>
+</resources>
